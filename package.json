@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "fmt": "prettier --write .",
+    "push:pg": "drizzle-kit push:pg",
     "lint": "next lint"
   },
   "dependencies": {
@@ -24,6 +26,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
-    "drizzle-kit": "^0.19.13"
+    "drizzle-kit": "^0.19.13",
+    "prettier": "^3.0.3"
   }
 }
